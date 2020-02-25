@@ -19,7 +19,7 @@ namespace CoffeeShopLab18.Controllers
         {
             if(ModelState.IsValid)
             {
-                return View();
+                return View("Summary", user);
             }
             else
             {

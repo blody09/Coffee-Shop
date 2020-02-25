@@ -21,10 +21,6 @@ namespace CoffeeShopLab18.Models
         
         public string Password { get; set; }
         
-        public void GetUserName()
-        {
-            UserName = UserName;
-        }
         
     }
 
