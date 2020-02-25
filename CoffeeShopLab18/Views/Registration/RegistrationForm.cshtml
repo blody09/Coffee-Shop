@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "RegistrationForm";
+}
+
+<h1>RegistrationForm</h1>
+
+@Html.ValidationSummary()
+<form action="../Registration/Summary" method="post">
+    
+    <input type="text" name="UserName" value="@Model.UserName" placeholder="Gary1976" />
+    <input type="text" name="Email" value="@Model.Email" placeholder="Gary@RickandMorty.com" />
+    <input type="text" name="Password" value="@Model.Password" placeholder="You Shouldn't show people your pass word" />
+    <input type="submit" name="submit" value="Add User"  />
+
+</form>
+
+
+
